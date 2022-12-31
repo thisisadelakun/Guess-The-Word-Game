@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the word</title>
+</head>
+
+<body onload="initialize()">
+    <div class="container ">
+        <h1>Guess the word</h1>
+        <p id="status"></p>
+        <p id="word_area"></p>
+
+        <div id="keyboard" class="keyboard">
+            <div class="keyboard_row">
+                <button class="kybrdbtn" id="Q" onclick="handle('Q')">Q</button>
+                <button class="kybrdbtn" id="W" onclick="handle('W')">W</button>
+                <button class="kybrdbtn" id="E" onclick="handle('E')">E</button>
+                <button class="kybrdbtn" id="R" onclick="handle('R')">R</button>
+                <button class="kybrdbtn" id="T" onclick="handle('T')">T</button>
+                <button class="kybrdbtn" id="Y" onclick="handle('Y')">Y</button>
+                <button class="kybrdbtn" id="U" onclick="handle('U')">U</button>
+                <button class="kybrdbtn" id="I" onclick="handle('I')">I</button>
+            </div>
+            <div class="keyboard_row">
+                <button class="kybrdbtn" id="O" onclick="handle('O')">O</button>
+                <button class="kybrdbtn" id="P" onclick="handle('P')">P</button>
+                <button class="kybrdbtn" id="A" onclick="handle('A')">A</button>
+                <button class="kybrdbtn" id="S" onclick="handle('S')">S</button>
+                <button class="kybrdbtn" id="D" onclick="handle('D')">D</button>
+                <button class="kybrdbtn" id="F" onclick="handle('F')">F</button>
+                <button class="kybrdbtn" id="G" onclick="handle('G')">G</button>
+                <button class="kybrdbtn" id="H" onclick="handle('H')">H</button>
+            </div>
+            <div class="keyboard_row">
+                <button class="kybrdbtn" id="J" onclick="handle('J')">J</button>
+                <button class="kybrdbtn" id="K" onclick="handle('K')">K</button>
+                <button class="kybrdbtn" id="L" onclick="handle('L')">L</button>
+                <button class="kybrdbtn" id="Z" onclick="handle('Z')">Z</button>
+                <button class="kybrdbtn" id="X" onclick="handle('X')">X</button>
+                <button class="kybrdbtn" id="C" onclick="handle('C')">C</button>
+            </div>
+            <div class="keyboard_row">
+                <button class="kybrdbtn" id="V" onclick="handle('V')">V</button>
+                <button class="kybrdbtn" id="B" onclick="handle('B')">B</button>
+                <button class="kybrdbtn" id="N" onclick="handle('N')">N</button>
+                <button class="kybrdbtn" id="M" onclick="handle('M')">M</button>
+            </div>
+        </div>
+        <button onclick="initialize()">RESTART</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
