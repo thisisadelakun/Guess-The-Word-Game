@@ -39,6 +39,7 @@ h1 {
     font-size: 2em;
     height: 1.5em;
     z-index: 500;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #word_area {
@@ -47,6 +48,7 @@ h1 {
     margin-bottom: 2em;
     font-size: 2em;
     z-index: 500;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .keyboard_row {
@@ -60,7 +62,7 @@ h1 {
 .kybrdbtn {
     width: 2em;
     height: 2em;
-    font-family: inherit;
+    font-family: 'Courier New', Courier, monospace;
     z-index: 500;
 }
 
